@@ -25,3 +25,7 @@ rhui-REGION-client-config-server-7/x86_64        Red Hat Update Infrastru      7
 rhui-REGION-rhel-server-releases/7Server/x86_64  Red Hat Enterprise Linux 17,474
 rhui-REGION-rhel-server-rh-common/7Server/x86_64 Red Hat Enterprise Linux    228
 repolist: 17,709
+
+
+[root@ip-172-31-44-154 ec2-user]# grep reilly /etc/passwd
+reilly:x:2800:2800::/home/reilly:/bin/bash
