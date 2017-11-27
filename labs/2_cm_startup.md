@@ -1,3 +1,4 @@
+```
 [root@ip-172-31-33-253 ec2-user]# tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 2017-11-03 05:56:58,537 INFO main:com.cloudera.cmon.components.CsdMetricSchemaGenerator: Loading monitoring definitions from KAFKA-5.11.2
 2017-11-03 05:56:58,537 INFO main:com.cloudera.cmon.components.CsdMetricSchemaGenerator: Loading monitoring definitions from HDFS-5.11.2
@@ -13,3 +14,6 @@
 2017-11-03 05:57:06,442 INFO main:com.cloudera.cmon.components.MetricSchemaManager: Cross entity aggregates processed.
 2017-11-03 05:57:08,897 INFO JvmPauseMonitor:com.cloudera.enterprise.debug.JvmPauseMonitor: Detected pause in JVM or host machine (e.g. a stop the world GC, or JVM not scheduled): paused approximately 1011ms: GC pool 'ParNew' had collection(s): count=5 time=86ms, GC pool 'ConcurrentMarkSweep' had collection(s): count=1 time=1226ms
 2017-11-03 05:57:09,089 INFO main:com.cloudera.cmon.MetricSchema: Setting current metrics schema to 7YHfETHjpz-oiE5a-63xvTaHVZ0
+```
+@mfernest: Initial line of the log file is left out
+@mfernest: Line showing "Jetty server started" is left out
