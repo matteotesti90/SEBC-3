@@ -1,3 +1,4 @@
+```
 [root@ip-172-31-33-253 ec2-user]# curl -u admin:admin "http://172.31.33.253:7180/api/v9/cm/deployment"
 {
   "timestamp" : "2017-11-03T10:07:30.199Z",
@@ -90,3 +91,4 @@
   "hostTemplates" : {
     "items" : [ ]
   }
+```
