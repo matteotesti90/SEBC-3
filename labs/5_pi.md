@@ -1,3 +1,4 @@
+```
 [frankola@ip-172-31-33-253 ~]$ hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar pi 50 100
 Number of Maps  = 50
 Samples per Map = 100
@@ -52,9 +53,14 @@ Wrote input for Map #47
 Wrote input for Map #48
 Wrote input for Map #49
 Starting Job
+```
+```
 17/11/03 06:57:30 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-39-184.eu-central-1.compute.internal/172.31.39.184:8032
 17/11/03 06:57:30 INFO hdfs.DFSClient: Created token for frankola: HDFS_DELEGATION_TOKEN owner=frankola@SMARRONE.FNG, renewer=yarn, realUser=, issueDate=1509706590224, maxDate=1510311390224, sequenceNumber=2, masterKeyId=2 on 172.31.39.17:8020
 17/11/03 06:57:30 INFO security.TokenCache: Got dt for hdfs://172-31-33-253.eu-central-1.compute.internal:8020; Kind: HDFS_DELEGATION_TOKEN, Service: 172.31.39.17:8020, Ident: (token for frankola: HDFS_DELEGATION_TOKEN owner=frankola@SMARRONE.FNG, renewer=yarn, realUser=, issueDate=1509706590224, maxDate=1510311390224, sequenceNumber=2, masterKeyId=2)
+```
+This output appears to be have been copied from another cluster
+```
 17/11/03 06:57:30 INFO input.FileInputFormat: Total input paths to process : 50
 17/11/03 06:57:30 INFO mapreduce.JobSubmitter: number of splits:50
 17/11/03 06:57:30 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1509705436429_0002
@@ -145,3 +151,4 @@ Starting Job
                 Bytes Written=97
 Job Finished in 61.769 seconds
 Estimated value of Pi is 3.14160000000000000000
+```
