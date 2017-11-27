@@ -1,3 +1,4 @@
+```
 [root@ip-172-31-33-253 jdk1.7.0_67-cloudera]# hdfs dfs -ls /user
 Found 9 items
 drwxr-xr-x   - admin    admin               0 2017-11-03 05:48 /user/admin
@@ -9,8 +10,8 @@ drwxrwxr-x   - hue      hue                 0 2017-11-03 05:45 /user/hue
 drwxrwxr-x   - oozie    oozie               0 2017-11-03 05:46 /user/oozie
 drwxr-xr-x   - reilly   reilly              0 2017-11-03 05:49 /user/reilly
 drwxr-x--x   - spark    spark               0 2017-11-03 05:44 /user/spark
-
-
+```
+```
 [root@ip-172-31-33-253 jdk1.7.0_67-cloudera]# beeline -u jdbc:hive2://ip-172-31-44-154.eu-central-1.compute.internal:10000
 scan complete in 2ms
 Connecting to jdbc:hive2://ip-172-31-44-154.eu-central-1.compute.internal:10000
@@ -36,3 +37,4 @@ INFO  : OK
 | web_logs   |
 +------------+--+
 4 rows selected (0.173 seconds)
+```
