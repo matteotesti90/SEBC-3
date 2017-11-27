@@ -38,3 +38,4 @@ INFO  : OK
 +------------+--+
 4 rows selected (0.173 seconds)
 ```
+@mfernest: CM API calls and output are omitted
