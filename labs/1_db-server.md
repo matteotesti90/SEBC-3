@@ -1,6 +1,7 @@
-
+```
 ip-172-31-44-154.us-west-2.compute.internal
-
+```
+```
 [root@ip-172-31-44-154 ec2-user]# mysql -u root -pcloudera -e "status";
 Warning: Using a password on the command line interface can be insecure.
 --------------
@@ -25,8 +26,8 @@ Uptime:                 6 min 49 sec
 
 Threads: 1  Questions: 58  Slow queries: 0  Opens: 67  Flush tables: 1  Open tables: 60  Queries per second avg: 0.141
 --------------
-
-
+```
+```
 [root@ip-172-31-44-154 ec2-user]# mysql -u root -pcloudera -e show databases;
 Warning: Using a password on the command line interface can be insecure.
 ERROR 1049 (42000): Unknown database 'databases'
@@ -45,3 +46,4 @@ Warning: Using a password on the command line interface can be insecure.
 | scm                |
 | sentry             |
 +--------------------+
+```
