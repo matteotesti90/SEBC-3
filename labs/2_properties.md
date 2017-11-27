@@ -7,3 +7,4 @@ JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera Verifying that we can write to /etc/clo
 ```
 [root@ip-172-31-47-253 cloudera-scm-server]# more db.properties
 ```
+Content for `db.properties` is left out
